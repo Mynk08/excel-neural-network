@@ -1,0 +1,13 @@
+Activation Functions:
+
+Sigmoid:
+=1/(1+EXP(-x))
+
+Derivative:
+=A1*(1-A1)
+
+ReLU:
+=MAX(0, x)
+
+Tanh:
+=(EXP(x)-EXP(-x))/(EXP(x)+EXP(-x))
