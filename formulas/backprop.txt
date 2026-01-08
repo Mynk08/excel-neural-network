@@ -1,0 +1,10 @@
+Backpropagation Formulas:
+
+Output Error:
+= (prediction - actual) * activation_derivative
+
+Hidden Error:
+= MMULT(output_errors, TRANSPOSE(weights_hidden_to_output)) * hidden_activations * (1 - hidden_activations)
+
+Weight Update:
+= old_weight - learning_rate * error * input
